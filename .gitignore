@@ -1,0 +1,66 @@
+# 通用忽略文件
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Node.js (Vue 项目)
+**/node_modules/
+**/dist/
+**/package-lock.json
+**/pnpm-lock.yaml
+**/yarn.lock
+**/.vite/
+**/.nuxt/
+**/.output/
+**/coverage/
+
+# Java (Spring Boot 项目)
+**/target/
+**/.idea/
+**/.mvn/
+**/*.iml
+**/logs/
+**/bin/
+**/out/
+**/hs_err_pid*.log
+**/.settings/
+**/.classpath
+**/.project
+**/local.properties
+**/.gradle/
+**/build/
+**/generated/
+**/BOOT-INF/
+**/*.jar
+**/*.war
+**/*.ear
+
+# Python (Flask 项目)
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+**/instance/
+**/.mypy_cache/
+**/.pytest_cache/
+**/dist/
+**/build/
+**/pip-wheel-metadata/
+**/htmlcov/
+
+# SQLite 数据库文件
+**/*.sqlite3
+**/*.db
+
+# 环境变量和配置文件
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+**/.env.*.local
+**/.vscode/

@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: todo_list_service_springboot
+
+    datasource:
+        url: jdbc:sqlite:todos.db
+        driver-class-name: org.sqlite.JDBC
+
+mybatis-plus:
+    mapper-locations: classpath*:mapper/*.xml
+    configuration:
+        map-underscore-to-camel-case: true
